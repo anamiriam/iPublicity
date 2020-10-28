@@ -6,4 +6,9 @@
 
     <string name="button_loginEntrar">Log In</string>
     <string name="button_loginRegistrar">Check In</string>
+
+    <string name="label_usuario">User</string>
+    <string name="label_pass">Password</string>
+    <string name="btn_entrar">Log In</string>
+
 </resources>

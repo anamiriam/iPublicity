@@ -7,4 +7,9 @@
 
     <string name="button_loginEntrar">Iniciar sesión</string>
     <string name="button_loginRegistrar">Registrarse</string>
+
+    <string name="label_usuario">Usuario</string>
+    <string name="label_pass">Contraseña</string>
+    <string name="btn_entrar">Iniciar Sesión</string>
+
 </resources>

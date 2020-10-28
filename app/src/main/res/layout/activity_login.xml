@@ -7,23 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_vaso_foreground"
+        android:scaleType="centerCrop"/>
 
-<ImageView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:src="@mipmap/ic_vaso_foreground"
-    android:scaleType="centerCrop"/>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#d8000000"
-    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
+
+
         android:layout_marginBottom="70dp"
         android:padding="10dp"
         android:src="@mipmap/dejavu_foreground"></ImageView>
