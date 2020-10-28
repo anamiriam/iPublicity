@@ -3,4 +3,8 @@
     <string name="title_home">Inicio</string>
     <string name="title_profile">Perfil</string>
     <string name="title_notifications">Notificaciones</string>
+
+
+    <string name="button_loginEntrar">Iniciar sesión</string>
+    <string name="button_loginRegistrar">Registrarse</string>
 </resources>
