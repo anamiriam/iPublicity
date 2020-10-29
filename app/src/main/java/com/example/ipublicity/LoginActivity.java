@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button loginEntrar;
+    Button loginEntrar, loginRegistrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,16 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        loginRegistrar = findViewById(R.id.loginRegistrar);
+        loginRegistrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, LoginRegistrarActivity.class));
+                finish();
+            }
+        });
+
     }
 
 }

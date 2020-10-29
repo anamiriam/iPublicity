@@ -23,8 +23,6 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-
-
         android:layout_marginBottom="70dp"
         android:padding="10dp"
         android:src="@mipmap/dejavu_foreground"></ImageView>
