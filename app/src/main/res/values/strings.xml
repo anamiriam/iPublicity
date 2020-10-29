@@ -4,6 +4,12 @@
     <string name="title_profile">Perfil</string>
     <string name="title_notifications">Notificaciones</string>
 
+    <string name="btn_iniciar">Iniciar</string>
+
+    <string name="btn_permitir">Permitir</string>
+    <string name="btn_rechazar">Rechazar</string>
+
+    <string name="btn_entendido">Entendido</string>
 
     <string name="button_loginEntrar">Entrar</string>
     <string name="button_loginRegistrar">Registrarse</string>
