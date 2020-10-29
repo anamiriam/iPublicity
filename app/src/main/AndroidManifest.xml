@@ -25,6 +25,9 @@
         <activity
             android:name=".LoginEntrarActivity">
         </activity>
+        <activity
+            android:name=".LoginRegistrarActivity">
+        </activity>
 
 
     </application>
