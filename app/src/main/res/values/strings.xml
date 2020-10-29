@@ -12,4 +12,13 @@
     <string name="label_pass">Contraseña</string>
     <string name="btn_entrar">Entrar</string>
 
+    <string name="label_nombre">Nombre</string>
+    <string name="label_apellido">Apellido</string>
+    <string name="label_nomusuario">Usuario</string>
+    <string name="label_newpass">Crear contraseña</string>
+    <string name="label_fecha_nac">Fecha de nacimiento</string>
+    <string name="label_cod_postal">Código postal</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="label_term_cond">Al hacer clic en Aceptar admite los terminos y condiciones de DEJA VU</string>
+
 </resources>

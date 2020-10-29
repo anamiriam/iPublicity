@@ -11,4 +11,13 @@
     <string name="label_pass">Password</string>
     <string name="btn_entrar">Get In</string>
 
+    <string name="label_nombre">Name</string>
+    <string name="label_apellido">Last name</string>
+    <string name="label_nomusuario">User</string>
+    <string name="label_newpass">Create a password</string>
+    <string name="label_fecha_nac">Date of birth</string>
+    <string name="label_cod_postal">Postal Code</string>
+    <string name="label_term_cond">By clicking Accept you agree to the terms and conditions of DEJA VU</string>
+    <string name="btn_aceptar">Accept</string>
+
 </resources>
