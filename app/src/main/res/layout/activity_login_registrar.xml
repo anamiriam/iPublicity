@@ -129,7 +129,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"/>
 
-        <EditText
+        <TextView
             android:id="@+id/terminos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
             android:layout_marginBottom="30dp"
             android:text="@string/label_term_cond"
             >
-        </EditText>
+        </TextView>
 
         <Button
             android:id="@+id/btn_aceptarcuenta"
