@@ -5,11 +5,11 @@
     <string name="title_notifications">Notificaciones</string>
 
 
-    <string name="button_loginEntrar">Iniciar sesión</string>
+    <string name="button_loginEntrar">Entrar</string>
     <string name="button_loginRegistrar">Registrarse</string>
 
     <string name="label_usuario">Usuario</string>
     <string name="label_pass">Contraseña</string>
-    <string name="btn_entrar">Iniciar Sesión</string>
+    <string name="btn_entrar">Entrar</string>
 
 </resources>
