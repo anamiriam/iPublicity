@@ -28,6 +28,8 @@
     <string name="textoDos">If you do not agree with these, do not download the Application on your device, do not use it,
         or interact with the Services. The User guarantees to have the minimum age necessary to use and request the Services,
         which will be linked to the minimum age required.</string>
-    <string name="textoTres">Terminos y Condiciones</string>
+    <string name="textoTres">On the other hand, the Notifications consist in that the User can receive notifications about the
+        DEJA VU advertising, receive coupons, discounts and offers, as long as they have a Bluetooth® system enabled and have
+        granted permission for the Application to use it.</string>
 
 </resources>

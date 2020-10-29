@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class LoginRegistrarActivity extends AppCompatActivity {
 
     Button btn_aceptarcuenta;
+    EditText terminos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +20,7 @@ public class LoginRegistrarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login_registrar);
 
         btn_aceptarcuenta=findViewById(R.id.btn_aceptarcuenta);
+        terminos=findViewById(R.id.terminos);
 
         btn_aceptarcuenta.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,5 +30,13 @@ public class LoginRegistrarActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+       terminos.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               startActivity(new Intent(LoginRegistrarActivity.this, TerminosActivity.class));
+               finish();
+           }
+       });
     }
 }
