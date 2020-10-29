@@ -20,4 +20,14 @@
     <string name="label_term_cond">By clicking Accept you agree to the terms and conditions of DEJA VU</string>
     <string name="btn_aceptar">Accept</string>
 
+    <string name="tituloUno">Terms and Conditions</string>
+    <string name="textoUno">Welcome to the iPublicity Terms and Conditions of Use based on DEJA VU services. These
+        constitute a binding agreement between any natural or legal person (hereinafter and without distinction, the
+        "User" or the "Users") who download, use or interact with the Application and / or request any service available
+        through the Application.</string>
+    <string name="textoDos">If you do not agree with these, do not download the Application on your device, do not use it,
+        or interact with the Services. The User guarantees to have the minimum age necessary to use and request the Services,
+        which will be linked to the minimum age required.</string>
+    <string name="textoTres">Terminos y Condiciones</string>
+
 </resources>

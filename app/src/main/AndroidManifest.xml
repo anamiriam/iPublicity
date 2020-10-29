@@ -36,6 +36,17 @@
             android:name=".LoginRegistrarActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
+<<<<<<< Updated upstream
+=======
+        <activity android:name=".TerminosActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+>>>>>>> Stashed changes
     </application>
 
 </manifest>

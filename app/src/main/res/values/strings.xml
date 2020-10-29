@@ -27,4 +27,16 @@
     <string name="btn_aceptar">Aceptar</string>
     <string name="label_term_cond">Al hacer clic en Aceptar admite los terminos y condiciones de DEJA VU</string>
 
+    <string name="tituloUno">Terminos y Condiciones</string>
+    <string name="textoUno">Bienvenido a los Términos y Condiciones de Uso de iPublicity en base a los servicios de
+        DEJA VU. Estos constituyen un acuerdo vinculante entre cualquier persona física o moral (en adelante e indistintamente,
+        el “Usuario” o los “Usuarios”) que descarguen, usen o interactúen con la Aplicación y/o soliciten cualquier servicio
+        disponible a través de la Aplicación.</string>
+    <string name="textoDos">Si usted no está de acuerdo con los presentes, no descargue la Aplicación en su dispositivo, no la
+        utilice, ni interactúe con los Servicios. El Usuario garantiza tener la edad mínima necesaria para utilizar y solicitar
+        los Servicios, que estará vinculada con la edad mínima requerida.</string>
+    <string name="textoTres">Por otra parte, las Notificaciones consisten en que el Usuario pueda recibir notificaciones sobre
+        la publicidad de DEJA VU, recibir cupones, descuentos y ofertas, siempre y cuando cuente con un sistema Bluetooth®
+        habilitado y haya concedido permiso para que la Aplicación lo utilice.</string>
+
 </resources>
