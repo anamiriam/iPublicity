@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConceptoCupon">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/tarro_round">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="286dp"
+            android:layout_height="176dp"
+            android:src="@mipmap/palabradejabu_foreground"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="38dp"></ImageView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="314dp"
+            android:layout_height="200dp"
+            android:background="@drawable/btn_fondo_color"
+            android:text="CONCEPTO          Cupón valido por la cantidad de $150 en cervezas light"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="413dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="324dp"
+            android:layout_height="173dp"
+            android:background="@drawable/btn_redondeado_blanco"
+            android:text="Pide a uno de los empleados de DEJA VU  que te haga valida la promoción"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="214dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

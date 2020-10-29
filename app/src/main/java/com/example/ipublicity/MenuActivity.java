@@ -1,6 +1,11 @@
 package com.example.ipublicity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -11,6 +16,12 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class MenuActivity extends AppCompatActivity {
+
+    public void Iniciar(View view) {
+        Intent iniciar = new Intent(this, EditarDatos.class);
+        startActivity(iniciar);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +36,11 @@ public class MenuActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
+
+
     }
+
+
 
 }

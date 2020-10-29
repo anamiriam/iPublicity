@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tarro"
+    tools:context=".Cupon">
+
+
+    <Button
+        android:id="@+id/btn_aceptarcuenta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_fondo_color"
+        android:elevation="5dp"
+        android:onClick="Iniciar"
+        android:text="@string/btn_aceptar"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="347dp"></Button>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="318dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_redondeado_blanco"
+        android:text="Sólo aplica en cervezas light"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="574dp"
+        android:layout_height="234dp"
+        android:background="@drawable/btn_fondo_color"
+        android:text="CUPÓN $150 "
+        android:textAlignment="center"
+        android:textSize="100sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
